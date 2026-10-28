@@ -1,0 +1,88 @@
+
+E-COMMERCE SALES DATA ANALYSIS
+==============================
+
+1. OBJECTIVE
+Analyze e-commerce sales data to understand sales performance,
+customer behavior, regional results, and monthly revenue trends.
+
+2. DATASET OVERVIEW
+Original dataset rows: 5000
+Original dataset columns: 12
+Cleaned dataset rows: 5000
+Cleaned dataset columns: 12
+
+3. DATA CLEANING
+- Created a separate copy of the original dataset.
+- Checked and removed exact duplicate rows.
+- Converted order_date into a datetime data type.
+- Removed records missing essential order ID, date, or revenue.
+- Filled missing categorical values with Unknown.
+- Converted numerical columns into numeric data types.
+- Filled remaining missing numerical values with their medians.
+- Standardized category, region, and payment method text.
+- Checked numerical values for invalid ranges.
+
+Note: Review the validation results and document any additional
+corrections or removals performed.
+
+4. KPI SUMMARY
+Total Revenue: 5,109,775.74
+Total Orders: 5,000
+Average Order Value: 1,021.96
+Total Units Sold: 20,224
+Top-Selling Category: Electronics
+Top Revenue-Generating Category: Electronics
+
+5. SALES TREND
+Highest-Revenue Month: August 2026
+Revenue in Highest-Revenue Month: 44,728.82
+Lowest-Revenue Month: September 2035
+Revenue in Lowest-Revenue Month: 4,952.23
+
+Interpret the monthly chart to determine whether revenue shows
+growth, decline, seasonality, or fluctuations.
+
+6. CUSTOMER INSIGHTS
+Unique Customers: 989
+Average Customer Rating: 2.97
+Average Delivery Time: 6.12 days
+Highest Average Rating Category: Beauty
+Fastest Average Delivery Region: West
+
+7. REGIONAL AND PAYMENT ANALYSIS
+Highest-Revenue Region: West
+Most-Used Payment Method: Card
+
+8. KEY FINDINGS
+1. Total revenue is 5,109,775.74.
+2. The dataset contains 5,000 unique orders.
+3. Average order value is 1,021.96.
+4. The highest-selling category by quantity is Electronics.
+5. The highest-revenue category is Electronics.
+6. The highest-revenue month is August 2026, with revenue of 44,728.82.
+7. The highest-revenue region is West.
+8. The most-used payment method by unique orders is Card.
+
+9. VISUALIZATIONS
+- Revenue by product category
+- Monthly revenue trend
+- Payment method share
+- Revenue by region
+- Dashboard mockup
+
+10. LIMITATIONS
+- The dataset has product categories but no individual product names.
+  Therefore, the top revenue-generating individual product cannot
+  be identified.
+- Findings describe the supplied dataset and do not establish
+  the causes of sales or customer behavior.
+- Recommendations should be based on the observed results and
+  validated with additional business information where possible.
+
+11. RECOMMENDATIONS
+- Review the categories generating the most revenue and units sold.
+- Investigate months with unusually high or low revenue.
+- Compare delivery performance across regions.
+- Use customer ratings to identify categories that may need review.
+- Monitor payment method preferences when planning checkout options.
